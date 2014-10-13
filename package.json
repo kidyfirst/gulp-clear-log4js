@@ -1,0 +1,37 @@
+{
+  "name": "gulp-clear-log4js",
+  "version": "0.0.1",
+  "homepage": "http://10.6.19.139/timlv/gulp-clear-log4js.git",
+  "description": "Clear the log4js code",
+  "main": "./index.js",
+  "dependencies": {
+    "gulp-util": "*",
+    "through2": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "node ./test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://10.6.19.139/timlv/gulp-clear-log4js.git"
+  },
+  "keywords": [
+    "clear",
+    "gulp-clear-log4js"
+  ],
+  "author": "Tim Lv <timlv@tencent.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://10.6.19.139/timlv/gulp-clear-log4js/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
